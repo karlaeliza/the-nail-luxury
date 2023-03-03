@@ -1,0 +1,406 @@
+* {
+    box-sizing: border-box;
+}
+/* https://coolors.co/ */
+
+html {
+    scroll-behavior: smooth;
+}
+
+h2 {
+    font-family: 'Redressed', 'sans-serif';
+}
+
+header {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+#mainNav ul li a:hover {
+    color: rgb(255, 187, 238);
+    transition: .5s;
+    /*Este es para cambiar el cursor*/
+    cursor: pointer;
+    /*aqui se hace la transicion para el hover inicial*/
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px;
+    transition: .5s;
+    /*aqui se hace la transicion para el hover final (despues de quitar el mouse)*/
+}
+
+#mainNava ul li a:hover {
+    color: rgb(245, 247, 240);
+    transition: .5s;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+    transition: .5s;
+    /*aqui se hace la transicion para el hover final (despues de quitar el mouse)*/
+}
+
+.container {
+    /* border: var(--selective-yellow) 13px solid;
+width: 100vw;
+height: 200vh;
+padding: 20px;
+background-image: url(../img/back.jpg);*/
+    padding: 180px;
+    background-image: url(../img/ba.jpg);
+    margin: 15px;
+    border-radius: 5px;
+    /*El fixed nos ayuda a que no se mueva el fondo*/
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.containers {
+    /* border: var(--selective-yellow) 13px solid;
+width: 100vw;
+height: 200vh;
+padding: 20px;
+background-image: url(../img/back.jpg);*/
+    padding: 180px;
+    background-image: url(../img/clienta14.jpg);
+    margin: 15px;
+    border-radius: 5px;
+    /*El fixed nos ayuda a que no se mueva el fondo*/
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#bio {
+    text-align: left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*se queda la imagen en su lugar con fixed*/
+}
+
+#bioo {
+    text-align: left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*se queda la imagen en su lugar con fixed*/
+}
+
+#social:hover {
+    transform: scale(1.3);
+}
+
+#brand:hover {
+    transform: scale(1.3);
+}
+
+.conta {
+    height: 100vh;
+    padding: 0px;
+    background-color: rgb(248, 168, 168);
+    margin: 15px;
+    border-radius: 5px;
+}
+
+#img {
+    height: 180px;
+    width: 200px;
+}
+
+.fotoP {
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.fotoPe {
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.texto {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.textito {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+image header {
+    width: 100%;
+    background-color: rgba(247, 191, 200, 0.027);
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+#suscribe {
+    background-color: rgb(255, 221, 221);
+}
+
+#hobbies {
+    text-align: right;
+    transition: .5s;
+}
+
+#reservacion {
+    background-color: pink;
+    color: rgb(245, 184, 245);
+}
+
+#imagenPosition {
+    position: sticky;
+    top: 0;
+    left: 50px;
+}
+
+#footer {
+    text-align: center;
+    font-family: 'Dosis', 'sans-serif';
+    width: 120%;
+    margin: 25px;
+    transition: .5s;
+    color: rgb(243, 0, 81);
+}
+
+#footer:hover {
+    transform: rotate(0.5turn);
+}
+
+#nombre:hover {
+    transform: rotate(0.5turn);
+}
+
+#imagen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*#imgChange {
+    width: 50vw;
+    height: 90vh;
+    background-image: url("../img/Santino-Le-Saint.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: .10s;
+}*/
+
+#button {
+    padding: 100px;
+    text-align: center;
+    width: 3000px;
+    height: 200px;
+    background-color: rgb(255, 170, 192);
+    color: rgb(0, 0, 0);
+}
+
+#button:hover+#imgChange {
+    background-image: url('../img/CARDS\ -\ sunshine\ and\ freckles.jpg');
+    transition: 0.10s;
+}
+
+.galeriaDiseños {
+    padding: 60px;
+    background-color: rgba(252, 212, 233, 0.397);
+    margin: 50px;
+    border-radius: 10px;
+}
+
+#diseño {
+    transition: .5s;
+}
+
+#diseño:hover {
+    transform: scale(1.3);
+}
+
+.productosPic {
+    padding: 60px;
+    background-color: rgba(252, 212, 233, 0.397);
+    margin: 50px;
+    border-radius: 10px;
+}
+
+#producto {
+    transition: .5s;
+}
+
+#producto:hover {
+    transform: scale(1.3);
+}
+
+.ubicacion {
+    padding: 60px;
+    background-color: rgba(252, 212, 233, 0.397);
+    margin: 50px;
+    border-radius: 10px;
+}
+
+#profilepic {
+    border-radius: 50%;
+    margin: 25px;
+    width: 300px;
+    border: white, 10px, solid;
+    transition: .5s;
+}
+
+#profilepic:hover {
+    transform: scale(1.3);
+}
+
+.containerr {
+    padding: 230px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+#bioo {
+    text-align: center;
+    background-image: url('../img/fondoacercade.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*se queda la imagen en su lugar con fixed*/
+}
+
+#formReserva label {
+    text-align: center;
+    font-family: 'Dosis', 'sans-serif';
+    margin: 25px;
+    transition: .5s;
+    color: rgb(36, 35, 35);
+}
+
+#reservacion h2 {
+    text-align: center;
+    font-family: 'Dosis', 'sans-serif';
+    transition: .5s;
+    color: rgb(36, 35, 35);
+}
+
+#reservacion h2:hover {
+    transform: scale(1.3);
+}
+
+#bioo {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#bioo>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#bioo img {
+    margin: 50px;
+}
+
+#helloDesktop {
+    display: block;
+}
+
+#helloMovile {
+    display: none;
+}
+
+#portrait {
+    display: none;
+}
+
+#landscape {
+    display: none;
+}
+
+@media (max-width:600px) and (orientation: portrait) {
+    header {
+        background-color: rgb(255, 102, 102);
+        flex-direction: column;
+    }
+    #helloDesktop {
+        display: none;
+    }
+    #helloMovile {
+        display: none;
+    }
+    #bioo>div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #portrait {
+        display: block;
+    }
+}
+
+@media (max-width:650px) and (orientation: landscape) {
+    header {
+        background-color: violet;
+        flex-direction: column;
+    }
+    #helloDesktop {
+        display: none;
+    }
+    #helloMovile {
+        display: block;
+    }
+    #bioo>div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #landscape {
+        display: block;
+    }
+}
